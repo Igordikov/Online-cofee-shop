@@ -1,0 +1,112 @@
+/* GENERAL-STYLES */
+body {
+   
+    background-color: #fff;
+    accent-color: #1b1b1d;
+    color: #64646a;
+  }
+  
+  ul,
+  ol,
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 16px;
+  }
+  
+  
+  :hover, :focus {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  
+  
+  /* GENERAL-media-rules */
+
+
+  /* HEADER STYLES */
+  .header-section {
+    margin-top: 24px;
+    display: flex;
+    background-color:  #eeeff1;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+  }
+
+  .nav-item {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1b1b1d;
+    }
+
+  .basket-icon {
+    width: 56px;
+    height: 56px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .buy-link {
+width: 208px;
+height: 56px;
+font-family: "Jost", sans-serif;
+font-weight: 500;
+font-size: 15px;
+line-height: 1.73333;
+text-transform: uppercase;
+color: #fff;
+box-shadow: 0 30px 60px 0 rgba(163, 168, 178, 0.15);
+background: #1b1b1d;
+
+border-radius: 63px;
+padding: 15px 30px;
+
+  }
+  /* /HEADER STYLES */
