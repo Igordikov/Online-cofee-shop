@@ -1,7 +1,7 @@
 /* GENERAL-STYLES */
 body {
+  font-family: "Jost", sans-serif;
    
-    background-color: #fff;
     accent-color: #1b1b1d;
     color: #64646a;
   }
@@ -29,11 +29,19 @@ body {
   img {
     display: block;
   }
+
+  button {
+    background-color: #1b1b1d;
+    border-radius: 126px;
+padding: 20px 40px;
+cursor: pointer;
+border: none;
+  }
   
   .container {
     margin: 0 auto;
-    max-width: 1280px;
-    padding: 0 16px;
+   max-width: 1280;
+    padding: 0 100px;
   }
   
   
@@ -57,12 +65,16 @@ body {
   
   
   
+  
   /* GENERAL-media-rules */
 
 
   /* HEADER STYLES */
   .header-section {
-    margin-top: 24px;
+    
+    
+  
+    padding-top: 24px;
     display: flex;
     background-color:  #eeeff1;
     justify-content: space-between;
@@ -72,13 +84,16 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
+  
+
     
   }
 
   .nav-item {
-    font-family: "Jost", sans-serif;
+  
     font-weight: 500;
     font-size: 15px;
+    padding: 17px 0 17px 0;
     color: #1b1b1d;
     }
 
@@ -96,10 +111,9 @@ body {
   .buy-link {
 width: 208px;
 height: 56px;
-font-family: "Jost", sans-serif;
 font-weight: 500;
 font-size: 15px;
-line-height: 1.73333;
+line-height: 1.7;
 text-transform: uppercase;
 color: #fff;
 box-shadow: 0 30px 60px 0 rgba(163, 168, 178, 0.15);
@@ -110,3 +124,71 @@ padding: 15px 30px;
 
   }
   /* /HEADER STYLES */
+
+  /* SECTION ALOWISHUS  */
+
+  .alowishus-section {
+padding-bottom: 100px;
+padding-top: 100px;
+background-color: #eeeff1;
+  }
+
+  .alowishus-container {
+    max-width: 597px;
+    display: flex;
+    
+}
+
+
+
+  .text-title {
+   
+font-weight: 800;
+font-size: 124px;
+line-height: 1.03;
+color: #1b1b1d;
+  }
+
+  .descr-alowishus {
+    margin-top: 30px;
+    width: 530px;
+font-weight: 400;
+font-size: 24px;
+color: #64646a;
+  }
+
+  .links-flex-container {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .alowishus-button {
+   
+font-weight: 500;
+font-size: 18px;
+line-height: 1.7;
+text-transform: uppercase;
+color: #fff;
+  }
+
+  .alovishus-link {
+
+font-weight: 500;
+font-size: 18px;
+text-transform: uppercase;
+color: #1b1b1d;
+border-bottom:  1px solid #1b1b1d;
+  }
+
+  
+
+  
+
+  
+
+ 
+
+
+  /* /SECTION ALOWISHUS  */
